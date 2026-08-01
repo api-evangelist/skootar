@@ -1,7 +1,17 @@
 aid: skootar
 name: Skootar
-description: Skootar is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Skootar is a Thai on-demand courier, messenger, and logistics platform serving
+  Bangkok, its surrounding provinces, and Chonburi. It offers same-day document
+  delivery, cheque and bill collection, parcel shipping, business food delivery,
+  and on-demand pickup-truck and moving jobs across a fleet of motorcycles, cars,
+  and trucks, all with real-time tracking. Orders can be placed 24/7 through the
+  website, the mobile app, or an API intended for high-volume businesses to wire
+  delivery ordering into their own back-office systems. Skootar reports more than
+  130,000 business customers, 26,000+ drivers, and 9.2 million+ completed
+  deliveries over 12 years, and is backed by 500 Global. No public developer
+  portal, OpenAPI specification, or SDK is published; API access is arranged
+  through its business/enterprise channel.
 url: https://raw.githubusercontent.com/api-evangelist/skootar/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +19,30 @@ x-backed-by:
 - 500-global
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.skootar.com/nextImages/og/home/th.png
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Logistics
+- Delivery
+- Courier
+- Messenger
+- Last Mile
+- Transportation
+- Thailand
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +50,26 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/skootar-domain-security.yml
 - type: Website
   url: https://skootar.com
+- type: Blog
+  url: https://www.skootar.com/blog
+- type: Pricing
+  url: https://www.skootar.com/th/pricing
+- type: SignUp
+  url: https://www.skootar.com/th/login
+- type: TermsOfService
+  url: https://www.skootar.com/th/termsandconditions
+- type: PrivacyPolicy
+  url: https://www.skootar.com/th/privacy-policy
+- type: Support
+  url: https://www.skootar.com/th/faq
+- type: LLMsTxt
+  url: llms/skootar-llms.txt
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 2
+  pass: local-v1

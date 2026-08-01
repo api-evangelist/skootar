@@ -1,0 +1,29 @@
+# Skootar
+
+> Skootar is a Thai on-demand courier, messenger, and logistics platform serving Bangkok, its surrounding provinces, and Chonburi. It handles same-day document delivery, cheque/bill collection, parcel shipping, business food delivery, and on-demand truck/moving jobs across a fleet of motorcycles, cars, and trucks, with real-time tracking. Skootar reports 130,000+ business customers, 26,000+ drivers, and 9.2M+ completed deliveries over 12 years, and is backed by 500 Global.
+
+Orders can be placed 24/7 via the website, mobile app, or an API intended for high-volume businesses to connect delivery ordering into their own back-office systems. Skootar publishes no public developer portal, OpenAPI specification, SDK, or self-service API documentation as of this writing; API access is arranged through its business/enterprise sales channel.
+
+## Company
+- [Skootar homepage](https://www.skootar.com): Company overview and ordering.
+- [Business solutions](https://www.skootar.com/th/business): B2B services, including the "order via API" integration option.
+- [FAQ](https://www.skootar.com/th/faq): Notes that Skootar offers an API to connect delivery ordering to a business back-office system.
+- [Blog](https://www.skootar.com/blog): Company blog.
+
+## Ordering & Accounts
+- [Login / Sign up](https://www.skootar.com/th/login): Business and customer account access.
+- [Pricing (Bangkok)](https://www.skootar.com/th/pricing): Delivery pricing by region.
+- [Pricing (Chonburi)](https://www.skootar.com/th/pricing/chonburi): Regional pricing.
+
+## Legal
+- [Terms & Conditions](https://www.skootar.com/th/termsandconditions)
+- [Privacy Policy](https://www.skootar.com/th/privacy-policy)
+
+## Support
+- Line: @SKOOTAR (https://page.line.me/skootar)
+- Email: info@skootar.com
+- Phone: 02-105-4429 (06:00–24:00 daily)
+
+## Notes for agents
+- There is no public API specification or developer documentation to ground tool calls in; do not assume endpoint shapes.
+- To integrate, contact Skootar's business channel to obtain API access and documentation.
